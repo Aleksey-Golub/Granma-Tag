@@ -1,0 +1,632 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a54f0e7de79627469272f075f9622b4, type: 3}
+  m_Name: Game Settings
+  m_EditorClassIdentifier: 
+  _abilityCost: 20
+  _levelsDatas:
+  - SceneName: 1
+    Duration: 20
+    Reward: 10
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 0
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 0
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 0
+      AbilityCost: 0
+  - SceneName: 2
+    Duration: 20
+    Reward: 15
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 0
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 0
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 0
+      AbilityCost: 0
+  - SceneName: 3
+    Duration: 20
+    Reward: 20
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 0
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 0
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 0
+      AbilityCost: 0
+  - SceneName: 4
+    Duration: 20
+    Reward: 25
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 0
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 0
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 0
+      AbilityCost: 0
+  - SceneName: 5
+    Duration: 20
+    Reward: 30
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 0
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 0
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 0
+      AbilityCost: 0
+  - SceneName: 6
+    Duration: 20
+    Reward: 35
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 0
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 0
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 0
+      AbilityCost: 0
+  - SceneName: 7
+    Duration: 20
+    Reward: 40
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 0
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 0
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 0
+      AbilityCost: 0
+  - SceneName: 8
+    Duration: 20
+    Reward: 45
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 0
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 0
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 0
+      AbilityCost: 0
+  - SceneName: 9
+    Duration: 20
+    Reward: 50
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 1
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 1
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 0
+      AbilityCost: 0
+  - SceneName: 10
+    Duration: 20
+    Reward: 55
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 1
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 1
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 1
+      AbilityCost: 0
+  - SceneName: 11
+    Duration: 20
+    Reward: 60
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 1
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 1
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 1
+      AbilityCost: 0
+  - SceneName: 12
+    Duration: 20
+    Reward: 70
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 1
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 1
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 1
+      AbilityCost: 0
+  - SceneName: 13
+    Duration: 20
+    Reward: 80
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 1
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 1
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 1
+      AbilityCost: 0
+  - SceneName: 14
+    Duration: 20
+    Reward: 90
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 1
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 1
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 1
+      AbilityCost: 0
+  - SceneName: 15
+    Duration: 20
+    Reward: 100
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 1
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 1
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 1
+      AbilityCost: 0
+  - SceneName: 16
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 2
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 2
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 2
+      AbilityCost: 0
+  - SceneName: 17
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 2
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 2
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 2
+      AbilityCost: 0
+  - SceneName: 18
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 2
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 2
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 2
+      AbilityCost: 0
+  - SceneName: 19
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 2
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 2
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 2
+      AbilityCost: 0
+  - SceneName: 20
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 3
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 3
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 3
+      AbilityCost: 0
+  - SceneName: 21
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 3
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 3
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 3
+      AbilityCost: 0
+  - SceneName: 22
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 3
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 3
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 3
+      AbilityCost: 0
+  - SceneName: 23
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 3
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 3
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 3
+      AbilityCost: 0
+  - SceneName: 24
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 3
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 3
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 3
+      AbilityCost: 0
+  - SceneName: 25
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 4
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 4
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 4
+      AbilityCost: 0
+  - SceneName: 26
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 4
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 4
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 4
+      AbilityCost: 0
+  - SceneName: 27
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 4
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 4
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 4
+      AbilityCost: 0
+  - SceneName: 28
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 5
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 5
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 5
+      AbilityCost: 0
+  - SceneName: 29
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 5
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 5
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 6
+      AbilityCost: 0
+  - SceneName: 30
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 6
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 6
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 6
+      AbilityCost: 0
+  - SceneName: 31
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 6
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 6
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 6
+      AbilityCost: 0
+  - SceneName: 32
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 6
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 6
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 6
+      AbilityCost: 0
+  - SceneName: 33
+    Duration: 20
+    Reward: 20
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 6
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 6
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 6
+      AbilityCost: 0
+  - SceneName: 34
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 7
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 7
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 7
+      AbilityCost: 0
+  - SceneName: 35
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 7
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 7
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 7
+      AbilityCost: 0
+  - SceneName: 36
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 7
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 7
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 7
+      AbilityCost: 0
+  - SceneName: 37
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 8
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 8
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 8
+      AbilityCost: 0
+  - SceneName: 38
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 8
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 8
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 8
+      AbilityCost: 0
+  - SceneName: 39
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 8
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 8
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 8
+      AbilityCost: 0
+  - SceneName: 40
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 9
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 9
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 9
+      AbilityCost: 0
+  - SceneName: 41
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 9
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 9
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 9
+      AbilityCost: 0
+  - SceneName: 42
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 9
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 9
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 9
+      AbilityCost: 0
+  - SceneName: 43
+    Duration: 20
+    Reward: 150
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 10
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 10
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 10
+      AbilityCost: 0
+  - SceneName: 44
+    Duration: 20
+    Reward: 180
+    EnemyStats:
+      MoveSpeedMultiplier:
+        Name: Move Speed
+        Level: 10
+      ParkourSpeedMultiplier:
+        Name: Parkour Speed
+        Level: 10
+      SneakerRecharge:
+        Name: Trow Recharge
+        Level: 10
+      AbilityCost: 0
